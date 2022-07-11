@@ -15,8 +15,10 @@ To acheive this goal I did a few things:
 
 ## Screenshot of Application
 
+ <img src="assets\images\Horiseon.JPG" width=25%>
+
 ## Link to Application
 
-Click the link belo to visit the deployed application
+Click the link below to visit the deployed application
 
-[https://cbrunote.github.io/01-Code-Refactor/](https://cbrunote.github.io/01-Code-Refactor/).
+- [https://cbrunote.github.io/01-Code-Refactor/](https://cbrunote.github.io/01-Code-Refactor/).
