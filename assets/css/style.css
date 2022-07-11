@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Renamed to match header element instead of using the header class which was removed*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+/*Renamed to H1 as its the only H1 element in the html*/
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*renamed class selector to .seo*/
 .seo {
     color: #d9dcd6;
 }
 
+/*Renamed to select the new nav element instead of .header div*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +36,12 @@ nav {
     font-size: 20px;
 }
 
+/*Simplified element selector to ul so the unordered list is selected*/
 ul {
     list-style-type: none;
 }
-  
+
+/*Simplified element selector to il so each list item is selected*/
 li {
     display: inline-block;
     margin-left: 25px;
@@ -46,10 +52,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*Renamed to match new Figure element that replaced .hero class*/
 figure {
     height: 800px;
     width: 100%;
@@ -57,6 +60,38 @@ figure {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/*Renamed to main to match the semantic element as .content class was removed*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Consolidated .search-engine-optimization, .online-repuation-management, and .social-media-marketing into one element selector*/
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Consolidated all the h2 class selectors into one section element selector*/
+section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Consolidated all the img class selectors into one*/
+section img {
+    max-height: 200px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -69,12 +104,7 @@ figure {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*Changed the .Benefits class to the semantic element Aside*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,40 +116,26 @@ aside {
     background-color: #2589bd;
 }
 
+/*Consolidated all the benefit class sections to fall under the aricle element*/
 article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Consolidated all the h3 headers for the article into one*/
 article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Consolidated all the img in the article tag into one*/
 article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-section img {
-    max-height: 200px;
-}
-
+/*Renamed to match the footer element instead of the footer class which was removed.*/
 footer {
     padding: 30px;
     clear: both;
